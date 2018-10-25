@@ -27,7 +27,8 @@ namespace IOCAutofac.Services
                 var watch = new Watch
                 {
                     Id = System.Guid.NewGuid(),
-                    Brand = FakeData.NameData.GetCompanyName()
+                    Brand = FakeData.NameData.GetCompanyName(),
+                    ClockMaster = FakeData.NameData.GetFullName()
                 };
 
                 watches.Add(watch);

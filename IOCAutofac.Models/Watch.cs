@@ -6,5 +6,6 @@ namespace IOCAutofac.Models
     {
         public Guid Id { get; set; }
         public string Brand { get; set; }
+        public string ClockMaster { get; set; }
     }
 }
